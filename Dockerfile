@@ -5,8 +5,7 @@ MAINTAINER Mikhail Mangushev <development@2mx.org>
 LABEL version="1.5.0"
 LABEL description="Slate helps you create beautiful, intelligent, responsive API documentation."
 
-COPY . /usr/src/app/
-COPY /usr/src/app/source /usr/src/app/source_example
+COPY source source_example
 
 RUN mkdir build
 

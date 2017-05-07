@@ -24,9 +24,11 @@ Run webserver
 -------------
 `./slate.sh run`
 
+and open http://127.0.0.1:4567/
+
 Build docs
 ----------
-`./slate.sh run`
+`./slate.sh build`
 
 Use compose
 ===========
